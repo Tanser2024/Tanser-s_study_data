@@ -1,0 +1,9 @@
+s=list(map(int,input().split()))
+#读取输入数据
+m=max(s)
+a=m-min(s)
+s.remove(min(s))
+b=m-min(s)
+s.remove(min(s))
+c=m-min(s)
+print(a,b,c)
